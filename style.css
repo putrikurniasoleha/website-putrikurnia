@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Quicksand' , sans-serif;
+}
+
+h1 {
+    text-align: center; /*atur posisi tengah*/
+    color: rgb(3, 21, 25); /*warna tulisan*/
+    padding-top: 30px;
+}
+
+body > header {
+    background-color: rgb(248, 7, 115);
+}
+
+header > p {
+    text-align: center;
+    color:rgb(0, 11, 11)
+}
+
+nav {
+    background-color: rgb(193, 66, 150);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+
+li a {
+    color:rgb(93, 240, 181);
+}
+
+aside {
+    flex: 1;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content {
+    flex: 3;
+    box-shadow: 0 10px 15px 10px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    box-shadow: 0 10px 15px 10px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+
+aside header h2 {
+    color:black;
+    text-align: center;
+}
+
+#sejarah p {
+    padding: 15px;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+img {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
